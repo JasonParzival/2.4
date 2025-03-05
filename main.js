@@ -1,6 +1,6 @@
-function onButtonClick(btn) {
+function onButtonClick(letter) {
     let textField = document.getElementById("textField"); 
-    let newValue = textField.value + btn.innerText;
+    newValue = textField.value += letter;
     textField.value = newValue;
 }
 
